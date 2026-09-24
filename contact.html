@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nostra - Contact Us</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+
+            <p class="navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+
+            <p class="navbar-link">
+                <a href="Collection.html">Collections</a>
+            </p>
+
+            <p class="navbar-link">
+                <a href="contact.html">Contact Us</a>
+            </p>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+
+    <!-- ================= SIDE NAVBAR ================= -->
+
+    <div class="side-navbar">
+
+        <!-- Close Button -->
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark"
+                onclick="closeNavbar()"></i>
+        </p>
+
+        <div class="side-navbar-links">
+
+            <p>
+                <a href="index.html">Home</a>
+            </p>
+
+            <p>
+                <a href="Collection.html">Collections</a>
+            </p>
+
+            <p>
+                <a href="contact.html">Contact Us</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <div class="contact-section">
+
+        <div class="contact-container">
+
+            <h1>Contact Us</h1>
+
+            <!-- Contact Form -->
+
+            <form class="contact-form">
+
+                <!-- Name -->
+                <div class="contact-form-box">
+
+                    <label for="name">
+                        Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+
+                </div>
+
+
+                <!-- Email -->
+                <div class="contact-form-box">
+
+                    <label for="email">
+                        Email:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+                </div>
+
+
+                <!-- Message -->
+                <div class="contact-form-box">
+
+                    <label for="message">
+                        Message:
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-box-1">
+
+                <h2 class="headingText">
+                    Nostra
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolore, reprehenderit?
+                </p>
+
+                <div class="footer-icon-container">
+
+                    <i class="fa-brands fa-instagram"
+                        style="color: #ffff;"></i>
+
+                    <i class="fa-brands fa-twitter"
+                        style="color: #ffff;"></i>
+
+                    <i class="fa-brands fa-facebook"
+                        style="color: #ffff;"></i>
+
+                </div>
+
+            </div>
+
+            <p>
+                @2026 Nostra.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
